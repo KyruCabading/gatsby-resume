@@ -4,8 +4,6 @@ import Box from "@material-ui/core/Box"
 import Section from "../components/Section"
 import Header from "../components/Header"
 import Fab from "../components/Fab"
-// import Tooltip from "@material-ui/core/Tooltip"
-// import GatsbyIcon from "../images/gatsby-icon.png"
 import { graphql } from "gatsby"
 
 export default function App(props) {
@@ -27,14 +25,6 @@ export default function App(props) {
         <Section title="Education" items={education} />
       </Box>
       <Fab />
-      {/* <Tooltip title="</> with Gatsby" placement="left" interactive>
-        <img
-          src={GatsbyIcon}
-          height={35}
-          width={35}
-          style={{ position: "fixed", bottom: 20, right: 20 }}
-        />
-      </Tooltip> */}
     </Container>
   )
 }
