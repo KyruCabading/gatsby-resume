@@ -17,7 +17,11 @@ const useStyles = makeStyles(theme => ({
 }))
 
 const actions = [
-  { icon: <CodeIcon />, name: "View Code", href: "" },
+  {
+    icon: <CodeIcon />,
+    name: "View Code",
+    href: "https://github.com/KyruCabading/gatsby-resume",
+  },
   {
     icon: <EmailIcon />,
     name: "Email",
@@ -34,6 +38,10 @@ export default function SpeedDials() {
   const classes = useStyles()
   const [open, setOpen] = React.useState(false)
 
+  const handleClick = () => {
+    setOpen(prevOpen => !prevOpen)
+  }
+
   const handleClose = () => {
     setOpen(false)
   }
@@ -48,6 +56,7 @@ export default function SpeedDials() {
       className={classes.speedDial}
       icon={<SpeedDialIcon />}
       onBlur={handleClose}
+      handleClick={handleClick}
       onClose={handleClose}
       onFocus={handleOpen}
       onMouseEnter={handleOpen}
