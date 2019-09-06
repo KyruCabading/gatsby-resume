@@ -17,8 +17,9 @@ const trans = (x, y, s) =>
 const AnimatedCard = props => {
   const [spring, springSet] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: { mass: 0.5, tension: 500, friction: 50 },
+    config: { mass: 5, tension: 200, friction: 30 },
   }))
+
   return (
     <animated.div
       onMouseMove={({ clientX: x, clientY: y }) =>
