@@ -3,6 +3,7 @@ import Box from "@material-ui/core/Box"
 import Typography from "@material-ui/core/Typography"
 import AnimatedCard from "./AnimatedCard"
 
+//
 const Header = props => (
   <AnimatedCard>
     <Box my={8}>
