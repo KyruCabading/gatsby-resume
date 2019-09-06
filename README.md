@@ -10,7 +10,7 @@
 
 A Resume site built with Gatsby
 
-
+<img width="1050" alt="Screen Shot 2019-09-06 at 2 38 22 AM" src="https://user-images.githubusercontent.com/31245853/64418478-f0a74a80-d04f-11e9-8a15-46f44898fd54.png">
 
 ## 🚀 Quick start
 
