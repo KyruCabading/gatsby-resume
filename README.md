@@ -5,23 +5,15 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby Resume
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+A Resume site built with Gatsby
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+<img width="1050" alt="Screen Shot 2019-09-06 at 2 38 22 AM" src="https://user-images.githubusercontent.com/31245853/64418478-f0a74a80-d04f-11e9-8a15-46f44898fd54.png">
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
-
-    Use the Gatsby CLI to create a new site, specifying the default starter.
-
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
 
 1.  **Start developing.**
 
