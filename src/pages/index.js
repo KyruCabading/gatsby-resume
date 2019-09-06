@@ -1,7 +1,7 @@
 import React from "react"
 import Container from "@material-ui/core/Container"
 import Box from "@material-ui/core/Box"
-import Section from "../components/section"
+import Section from "../components/Section"
 import Header from "../components/Header"
 import Fab from "../components/Fab"
 // import Tooltip from "@material-ui/core/Tooltip"
