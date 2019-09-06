@@ -7,7 +7,7 @@ import AnimatedCard from "../AnimatedCard"
 
 const SectionItem = props => (
   <AnimatedCard>
-    <Box my={8}>
+    <Box my={14}>
       <Typography variant="h4">{props.title}</Typography>
       <div
         className="bodytext"
