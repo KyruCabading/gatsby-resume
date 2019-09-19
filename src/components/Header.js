@@ -11,7 +11,7 @@ const Header = props => (
         {props.title}
       </Typography>
       <Typography gutterBottom>
-        2 years professional working experience with React on production-level
+        1.3 years professional working experience with React on production-level
         projects.
       </Typography>
       <Typography gutterBottom>
